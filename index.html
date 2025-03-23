@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthsary Book</title>
+    <style>
+        body {
+            background-color: #ffccf2;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff66b2;
+        }
+        .page {
+            margin: 50px;
+            padding: 20px;
+            border: 2px solid #ff66b2;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .music {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <h1>My Best Girl</h1>
+    </div>
+
+    <div class="page">
+        <h1>Happy 2nd Monthsary, babyyy</h1>
+        <p>Two months with you feels like a dream—sweet, fun, and full of love. Thank you for making every moment special. You’re my favorite person, my happiest place, and my best adventure.</p>
+        <p>I love you more than words can say, and I can’t wait to make more memories and away kasama kaaa, iloveyouuu baby :3</p>
+        <p>Forever yours, zen</p>
+    </div>
+
+    <audio class="music" autoplay>
+        <source src="https://www.youtube.com/watch?v=xBJ4YkQq1i8" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        window.onload = function() {
+            var audio = document.querySelector('.music');
+            audio.currentTime = 183; // Start from 3:03
+            audio.play();
+        };
+    </script>
+
+</body>
+</html>
